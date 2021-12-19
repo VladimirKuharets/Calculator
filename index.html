@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <script defer src="./scrypt.js"></script>
+</head>
+<body>
+
+  <form id="myForm" class="form">
+   <p>Калькулятор</p>
+   <div class="calc">
+     <div class="content">
+      <ruby>
+        Перше число
+        <rt>Введіть перше число</rt>
+      </ruby>
+      <label for="firstNum">Перше число</label>
+       <input type="number" name="firstNum" value="0" class="firstNum" id="firstNum">
+     </div>
+     <div class="content">
+      <ruby>
+        Ваш оператор
+        <rt>Виберіть ваш оператор</rt>
+      </ruby>
+       <label for="operator">Оператор</label>
+       <select class="operator" id="operator">
+        <option>+</option>
+        <option>-</option>
+        <option>*</option>
+        <option>/</option>
+      </select>
+     </div>
+  
+     <div class="content">
+      <ruby>
+        Друге число
+        <rt>Введіть друге число</rt>
+      </ruby>
+       <label for="secondNum">Друге число</label>
+       <input type="number" name="secondNum" value="0" class="secondNum" id="secondNum">
+     </div>
+    <button class="submitRes" type="submit">Результат</button>
+   </div>
+  <p class="result">Округлений результат:0</p>
+  </form>
+ 
+  </body>
+</html>
